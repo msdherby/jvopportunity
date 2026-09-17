@@ -8,7 +8,7 @@ A branded buy box website for **Queen of Wholesaling Land** by Laraque Capital G
 
 - Pop Up Contract Viewer
 - Direct Contract Download
-- Seven Florida Market Boxes
+- Five Florida Market Boxes
 - Branded Logo, Colors, And Fonts
 - Submit A Deal Link In A New Tab
 - Phone Layout Matching The Desktop Design
@@ -16,15 +16,13 @@ A branded buy box website for **Queen of Wholesaling Land** by Laraque Capital G
 
 ## Current Markets
 
-| Market | County | Lots Needed | Max Per Lot | Video Starts |
-| --- | --- | --- | --- | --- |
-| Sebastian Highlands | Indian River | 2 | $93,000 | 01:15 |
-| Vero Lake Estates | Indian River | 10 | $60,000 | 04:43 |
-| Canaveral Groves | Brevard | 2 | $100,000 | 32:36 |
-| Port St John | Brevard | 2 | $77,500 | 57:55 |
-| Port St Lucie | Saint Lucie | 1 | $150,000 | 17:59 |
-| Palm Bay (Blue Lots) | Brevard | 5 | $58,000 | 07:31 |
-| Palm Bay (Unit 49) | Brevard | 8 | $23,000 | 07:31 (Palm Bay replay) |
+| Market | County | Lots Needed | Max Per Lot | Video Starts | Seller List |
+| --- | --- | --- | --- | --- | --- |
+| Sebastian Highlands | Indian River | 2 | $93,000 | 01:15 | [Get List](https://landsquadgroup.com/sebastian-2025) |
+| Vero Lake Estates | Indian River | 10 | $60,000 | 04:43 | [Get List](https://landsquadgroup.com/verolakeestates-skiptrace-list) |
+| Port St John | Brevard | 2 | $77,500 | 57:55 | [Get List](https://landsquadgroup.com/portstjohn-2025) |
+| Palm Bay (Blue Lots) | Brevard | 5 | $58,000 | 07:31 | [Get List](https://landsquadgroup.com/palmbay-2025) |
+| Palm Bay (Unit 49) | Brevard | 8 | $23,000 | 07:31 (Palm Bay replay) | [Get List](https://landsquadgroup.com/palmbay-2025) |
 
 ## Files
 
@@ -65,7 +63,7 @@ const LINKS = {
 ```
 
 - `videos` holds each Loom link. Add `?t=` followed by the start time in seconds (for example, 4:43 is `?t=283`).
-- `sellerLists` holds each Get Seller List link. Until a link is added, the button shows a Link Coming Soon message.
+- `sellerLists` holds each Get Seller List link. Any market without a link shows a Link Coming Soon message.
 
 ### Markets
 
